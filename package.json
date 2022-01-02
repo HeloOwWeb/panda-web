@@ -1,0 +1,22 @@
+{
+  "name": "panda-web",
+  "version": "1.0.0",
+  "description": "Site web personnel pour enseignement web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./sass/main.scss:./css/style.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "panda-web"
+  },
+  "keywords": [
+    "enseignement",
+    "web",
+    "programmation",
+    "initiation"
+  ],
+  "author": "HeloOwWeb",
+  "license": "MIT License"
+}
