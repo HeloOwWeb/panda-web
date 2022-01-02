@@ -1,16 +1,29 @@
-@import "utils/_responsive-mixins";
+@import "./utils/responsive-mixins";
+@import "./layout/header";
+@import "./layout/nav";
+@import "./layout/main";
+@import "./layout/footer";
 
-html {
-    @include media-min(phoneL, l) {
-        background-color: rgb(39, 1, 255);
-    }
-    @include media-min(tabletP, p) {
-        background-color: rgb(255, 1, 170);
-    }
-    @include media-min(tabletL, l) {
-        background-color: rgb(1, 255, 149);
-    }
-    @include media-min(desktop-sm, l) {
-        background-color: rgb(255, 73, 1);
-    }
+$color-text-primary: rgb(231, 231, 231);
+
+html, body {
+    background-color: rgb(38, 19, 41);
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+    color: $color-text-primary;
+    // @include media-min(phoneL, l) {
+    //     background-color: rgb(39, 1, 255);
+    // }
+    // @include media-min(tabletP, p) {
+    //     background-color: rgb(255, 1, 170);
+    // }
+    // @include media-min(tabletL, l) {
+    //     background-color: rgb(1, 255, 149);
+    // }
+    // @include media-min(desktop-sm, l) {
+    //     background-color: rgb(255, 73, 1);
+    // }
 }

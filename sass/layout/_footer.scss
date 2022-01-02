@@ -1,0 +1,21 @@
+$backgroundColorFull: #691136;
+$shadowColor: rgba(255, 95, 135, 0.658);
+$borderColor: rgb(179, 91, 136);
+$color-text-primary: rgb(231, 231, 231);
+
+footer {
+    height: 7vh;
+    width: 100%;
+    position: fixed;
+    top: 93vh;
+    background-color: $backgroundColorFull;
+    border-top: 0.5px solid $borderColor;
+    box-shadow: 0px 5px 25px $shadowColor;
+    text-align: center;
+    padding-top: 2vh;
+    a {
+        font-size: 2.5rem;
+        color: $color-text-primary;
+        text-decoration: none;
+    }
+}
