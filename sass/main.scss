@@ -1,0 +1,16 @@
+@import "utils/_responsive-mixins";
+
+html {
+    @include media-min(phoneL, l) {
+        background-color: rgb(39, 1, 255);
+    }
+    @include media-min(tabletP, p) {
+        background-color: rgb(255, 1, 170);
+    }
+    @include media-min(tabletL, l) {
+        background-color: rgb(1, 255, 149);
+    }
+    @include media-min(desktop-sm, l) {
+        background-color: rgb(255, 73, 1);
+    }
+}

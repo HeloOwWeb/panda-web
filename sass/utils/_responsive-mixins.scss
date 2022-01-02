@@ -1,0 +1,12 @@
+/* Breakpoints paramétrés dans une map*/
+$breakpoints: ( "phoneL": 640px, "tabletP": 768px, "tabletL": 1024px, "desktop-sm": 1280px);
+$orientation:("p": portrait,"l": landscape );
+
+/*Mixin des médias*/
+@mixin media-min($_keyMin, $_keyO) {
+  @media screen and (min-device-width: map-get($breakpoints, $_keyMin)) and (orientation: map-get($orientation, $_keyO)) {
+    & {
+      @content;
+    }
+  }
+}
