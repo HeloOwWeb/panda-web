@@ -1,0 +1,17 @@
+$color-text-secondary: rgb(230, 157, 194);
+$color-a-hover: rgb(51, 131, 236);
+
+#ariane {
+    padding-bottom: 2%;
+    border-bottom: 1px solid $color-text-secondary;
+    color: $color-text-secondary;
+    a {
+        text-decoration: none;
+    }
+    a:hover, a:focus {
+        color: $color-a-hover;
+    }
+    a:visited {
+        color: $color-text-secondary;
+    }
+}

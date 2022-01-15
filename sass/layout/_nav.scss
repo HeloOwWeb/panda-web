@@ -1,5 +1,6 @@
 $color-a-hover: rgb(51, 131, 236);
 $color-text-primary: rgb(231, 231, 231);
+$color-a-active: rgb(255, 150, 101);
 
 nav {
     width: 100%;
@@ -27,6 +28,11 @@ nav {
             opacity: 1;
             font-weight: 600;
             color: $color-a-hover;
+        }
+        #active {
+            opacity: 1;
+            font-weight: 600;
+            color: $color-a-active;
         }
     }
 }
