@@ -1,10 +1,12 @@
 @import "./utils/responsive-mixins";
-@import "./layout/header";
-@import "./layout/nav";
-@import "./layout/main";
-@import "./layout/-ariane.scss";
+@import "./layouts/header";
+@import "./layouts/nav";
+@import "./layouts/main";
+@import "./pages/home";
+@import "./layouts/ariane.scss";
 @import "./pages/contact";
-@import "./layout/footer";
+@import "./layouts/footer";
+@import "./components/cross";
 
 $color-text-primary: rgb(231, 231, 231);
 

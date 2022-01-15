@@ -1,0 +1,63 @@
+
+$color-text-primary: rgb(231, 231, 231);
+$color-a-active: rgb(255, 150, 101);
+$color-text-secondary: rgb(230, 157, 194);
+
+
+.close-container{
+  position: relative;
+  width: 5rem;
+  height: 5rem;
+  left: 88%;
+  margin-top: 2%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.leftright{
+  height: 4px;
+  width: 50px;
+  position: absolute;
+  margin-top: 24px;
+  background-color: $color-text-secondary;
+  border-radius: 2px;
+  transform: rotate(45deg);
+  transition: all .3s ease-in;
+}
+
+.rightleft{
+  height: 4px;
+  width: 50px;
+  position: absolute;
+  margin-top: 24px;
+  background-color: $color-text-secondary;
+  border-radius: 2px;
+  transform: rotate(-45deg);
+  transition: all .3s ease-in;
+}
+
+label{
+  color: $color-text-primary;
+  font-weight: 600;
+  font-size: 2rem;
+  letter-spacing: 0.3rem;
+  transition: all .3s ease-in;
+  opacity: 0;
+}
+.close{
+  margin: 60px 0 0 5px;
+  position: absolute;
+}
+
+.close-container:hover .leftright{
+  transform: rotate(-45deg);
+  background-color: $color-a-active;
+}
+.close-container:hover .rightleft{
+  transform: rotate(45deg);
+  background-color: $color-a-active;
+}
+.close-container:hover label{
+  opacity: 1;
+}

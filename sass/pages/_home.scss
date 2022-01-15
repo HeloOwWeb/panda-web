@@ -1,0 +1,16 @@
+$backgroundColor: rgba(212, 29, 84, 0.219);
+$shadowColor: rgba(255, 95, 135, 0.658);
+$borderColor: rgb(179, 91, 136);
+
+.note {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 2%;
+    background-color: $backgroundColor;
+    border: 1px solid $borderColor;
+    border-radius: 2%;
+    box-shadow: 0 0 15px $shadowColor;
+    &__home {
+        margin: -5% 2% 2% 2%;
+    }
+}
