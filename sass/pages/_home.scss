@@ -1,6 +1,8 @@
 $backgroundColor: rgba(212, 29, 84, 0.219);
 $shadowColor: rgba(255, 95, 135, 0.658);
 $borderColor: rgb(179, 91, 136);
+$color-text-secondary: rgb(230, 157, 194);
+$color-a-hover: rgb(51, 131, 236);
 
 .note {
     width: 90%;
@@ -12,5 +14,17 @@ $borderColor: rgb(179, 91, 136);
     box-shadow: 0 0 15px $shadowColor;
     &__home {
         margin: -5% 2% 5% 2%;
+    }
+}
+
+.backToUp {
+    a {
+        text-decoration: none;
+    }
+    a:hover, a:focus {
+        color: $color-a-hover;
+    }
+    a:visited {
+        color: $color-text-secondary;
     }
 }
